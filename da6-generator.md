@@ -4,11 +4,12 @@ description: Instructions to use app
 
 # DA6 Generator
 
-\[DA6 Generator]\(https://www.niis.io/da6-gen)
+[DA6 Generator](https://www.niis.io/da6-gen)
 
-```
-# da6_gen
-Generator for a DA6 Duty Roster
+
+
+```markup
+## Generator for a DA6 Duty Roster
 
 Upload a .csv file with the following columns:
 
