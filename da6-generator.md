@@ -8,17 +8,21 @@ description: Instructions to use app
 
 
 
-```markdown
-## Generator for a DA6 Duty Roster
+\## Generator for a DA6 Duty Roster
 
 Upload a .csv file with the following columns:
 
 Rank, Name, Days Since Last
 
-This automatically creates a DA6 roster which can be copied to Excel for easy printing
 
-Each cell is 'clickable' to change the Service Member's status during that day between:
+
+This automatically creates a DA6 roster which can be copied to Excel for easy printing.
+
+Each cell is 'clickable' to change the Service Member's status during that day between.
+
 Available, 'A', 'D', or 'U'. See AR 220-45 for the meaning of these designators.
+
+
 
 From AR 220-45
 
@@ -28,76 +32,134 @@ From AR 220-45
 
 (3) Soldiers not available because of being absent without leave, in arrest, in confinement, illness not in line of duty, or otherwise not available as a result of their own misconduct will be indicated by the letter "U."
 
-## Configuration options
-- Set the 'Nature of Duty', 'Organization', and 'From Date'
-- Can set the start day (the end day will be 39 days after the start (for a total of 40 columns)
-
-## Future
-### Configuration Options
-- Select different counts for weekends and weekdays
-- Ingest AAA-162 formatted rosters
-- Allow a custom date range
-- Allow to select non-consecutive dates
-- Provide an output for the end of the roster status, allowed to be used for the next roster
-
-### UI Enhancement
-- 'Drag and drop' duty days
-- Create a roster from a list of people
-- Specify that a Soldier will have duty on a particular day, create the roster around these custom specifications
 
 
-## Technical Details
+\## Configuration options
 
-The data structure of the 'da6_pers_list' is the following
+\- Set the 'Nature of Duty', 'Organization', and 'From Date'
 
-- Rank
-- Name
-- Duty
--- date: yyyy-mm-dd
--- daysSinceLastDuty: Number
--- dutyStatus: Number or Letter
+\- Can set the start day (the end day will be 39 days after the start (for a total of 40 columns)
+
+
+
+\## Future
+
+\### Configuration Options
+
+\- Select different counts for weekends and weekdays
+
+\- Ingest AAA-162 formatted rosters
+
+\- Allow a custom date range
+
+\- Allow to select non-consecutive dates
+
+\- Provide an output for the end of the roster status, allowed to be used for the next roster
+
+
+
+\### UI Enhancement
+
+\- 'Drag and drop' duty days
+
+\- Create a roster from a list of people
+
+\- Specify that a Soldier will have duty on a particular day, create the roster around these custom specifications
+
+
+
+\## Technical Details
+
+The data structure of the 'da6\_pers\_list' is the following
+
+\- Rank
+
+\- Name
+
+\- Duty
+
+\-- date: yyyy-mm-dd
+
+\-- daysSinceLastDuty: Number
+
+\-- dutyStatus: Number or Letter
 
 The 'dutyStatus' is either the days since the last duty (if the Service Member is available for duty) or the 'A', 'U', or 'D'
 
 
-## Rank will prioritize in this descending order: 
+
+\## Rank will prioritize in this descending order:&#x20;
 
 USA -> USN -> USAF
 
-- MAJ
-- LCDR 
-- Maj 
-- CPT
-- LT 
-- Capt 
-- 1LT 
-- LTJG 
-- 1st Lt 
-- 2LT 
-- ENS 
-- 2d LT
-- MSG 
-- SCPO 
-- SFC 
-- CPO 
-- MSgt 
-- SSG 
-- PO1 
-- TSgt 
-- SGT 
-- PO2 
-- SSgt 
-- CPL 
-- PO3 
-- SPC 
-- SrA 
-- PFC 
-- SN 
-- A1C 
-- PV2 
-- SA 
-- Amn 
-- PVT 
-- SR 
-- AB
-```
+\- MAJ
+
+\- LCDR&#x20;
+
+\- Maj&#x20;
+
+\- CPT
+
+\- LT&#x20;
+
+\- Capt&#x20;
+
+\- 1LT&#x20;
+
+\- LTJG&#x20;
+
+\- 1st Lt&#x20;
+
+\- 2LT&#x20;
+
+\- ENS&#x20;
+
+\- 2d LT
+
+\- MSG&#x20;
+
+\- SCPO&#x20;
+
+\- SFC&#x20;
+
+\- CPO&#x20;
+
+\- MSgt&#x20;
+
+\- SSG&#x20;
+
+\- PO1&#x20;
+
+\- TSgt&#x20;
+
+\- SGT&#x20;
+
+\- PO2&#x20;
+
+\- SSgt&#x20;
+
+\- CPL&#x20;
+
+\- PO3&#x20;
+
+\- SPC&#x20;
+
+\- SrA&#x20;
+
+\- PFC&#x20;
+
+\- SN&#x20;
+
+\- A1C&#x20;
+
+\- PV2&#x20;
+
+\- SA&#x20;
+
+\- Amn&#x20;
+
+\- PVT&#x20;
+
+\- SR&#x20;
+
+\- AB
