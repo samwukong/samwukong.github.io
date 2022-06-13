@@ -8,7 +8,7 @@ description: Instructions to use app
 
 
 
-```markup
+```markdown
 ## Generator for a DA6 Duty Roster
 
 Upload a .csv file with the following columns:
