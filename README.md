@@ -1,5 +1,6 @@
-# samwukong.github.io
-Sam's Workshop
+![Tinker Lab](assets/images/image_280_1_69210317_sm.png)
+
+# Sam's Workshop
 
 A work in progress.
 
