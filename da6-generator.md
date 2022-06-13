@@ -4,11 +4,9 @@ description: Instructions to use app
 
 # DA6 Generator
 
-[DA6 Generator](https://www.niis.io/da6-gen)
+[DA6 Generator](https://www.niis.io/da6\_gen)
 
-
-
-\## Generator for a DA6 Duty Roster
+## Generator for a DA6 Duty Roster
 
 Upload a .csv file with the following columns:
 
@@ -34,7 +32,7 @@ From AR 220-45
 
 
 
-\## Configuration options
+### Configuration options
 
 \- Set the 'Nature of Duty', 'Organization', and 'From Date'
 
@@ -42,33 +40,7 @@ From AR 220-45
 
 
 
-\## Future
-
-\### Configuration Options
-
-\- Select different counts for weekends and weekdays
-
-\- Ingest AAA-162 formatted rosters
-
-\- Allow a custom date range
-
-\- Allow to select non-consecutive dates
-
-\- Provide an output for the end of the roster status, allowed to be used for the next roster
-
-
-
-\### UI Enhancement
-
-\- 'Drag and drop' duty days
-
-\- Create a roster from a list of people
-
-\- Specify that a Soldier will have duty on a particular day, create the roster around these custom specifications
-
-
-
-\## Technical Details
+### Technical Details
 
 The data structure of the 'da6\_pers\_list' is the following
 
@@ -88,7 +60,7 @@ The 'dutyStatus' is either the days since the last duty (if the Service Member i
 
 
 
-\## Rank will prioritize in this descending order:&#x20;
+### Rank will prioritize in this descending order:&#x20;
 
 USA -> USN -> USAF
 
