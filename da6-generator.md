@@ -1,5 +1,5 @@
 ---
-description: Instructions to use the app
+description: Instructions to use app
 ---
 
 # DA6 Generator
