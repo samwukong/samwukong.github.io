@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Creating For Good](README.md)
-* [DA6 Generator](da6-generator.md)
+* [Introduction](README.md)
+* [Hobby Projects](hobby-projects/README.md)
+  * [DA6 Generator](hobby-projects/da6-generator.md)
