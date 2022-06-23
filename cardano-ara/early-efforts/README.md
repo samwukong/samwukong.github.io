@@ -23,7 +23,7 @@ Ultimately, the goal is to be able to establish, deploy, and run various project
 
 For now, I'm simply recording my journey through the process and declaring a proof of knowledge along the way.
 
-### [Minting a Native Token](https://app.gitbook.com/s/e0OBzf0D1zIir1P9Mico/\~/changes/4Gp6BwPpN3fLGho6NsKb/cardano-ara/early-efforts/minting-a-native-token)
+### [Minting a Native Token](https://docs.niis.io/cardano-ara/early-efforts/minting-a-native-token)
 
 Token name: ViralNinja
 
@@ -37,7 +37,7 @@ The transaction hash for minting is:
 
 [632187ebe1ad6c41dfb63c11a811a947fb84e698a03f2690aa732f783295584a](https://testnet.cardanoscan.io/transaction/632187ebe1ad6c41dfb63c11a811a947fb84e698a03f2690aa732f783295584a)
 
-### [First Real NFT](https://app.gitbook.com/s/e0OBzf0D1zIir1P9Mico/\~/changes/4Gp6BwPpN3fLGho6NsKb/cardano-ara/early-efforts/first-real-nft)
+### [First Real NFT](https://docs.niis.io/cardano-ara/early-efforts/first-real-nft)
 
 NFT Names: Rough NFT 1, 2, 3
 
@@ -51,7 +51,7 @@ The transaction hash for minting is:
 
 [1146f07a9777f5ca323ce2bc478f733721d15804573ff91291c247ab](https://testnet.cardanoscan.io/tokenPolicy/1146f07a9777f5ca323ce2bc478f733721d15804573ff91291c247ab)
 
-### [Second NFT Minting (with Royalty)](https://app.gitbook.com/s/e0OBzf0D1zIir1P9Mico/\~/changes/4Gp6BwPpN3fLGho6NsKb/cardano-ara/early-efforts/second-nft-minting-with-royalty)
+### [Second NFT Minting (with Royalty)](https://docs.niis.io/cardano-ara/early-efforts/second-nft-minting-with-royalty)
 
 Token Names: Rough NFT 7, 8
 
