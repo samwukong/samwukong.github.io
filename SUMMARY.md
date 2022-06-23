@@ -6,4 +6,7 @@
 
 ## Cardano ₳
 
-* [1. Early Efforts](cardano-ara/1.-early-efforts.md)
+* [Early Efforts](cardano-ara/early-efforts/README.md)
+  * [Minting a Native Token](cardano-ara/early-efforts/minting-a-native-token.md)
+  * [First Real NFT](cardano-ara/early-efforts/first-real-nft.md)
+  * [Second NFT Minting (with Royalty)](cardano-ara/early-efforts/second-nft-minting-with-royalty.md)
